@@ -1,0 +1,26 @@
+add_library(libmodules STATIC
+  ALAC.cpp
+  ALAC.h
+  BlockCodec.cpp
+  BlockCodec.h
+  FLAC.cpp
+  FLAC.h
+  FileModule.cpp
+  FileModule.h
+  G711.cpp
+  G711.h
+  IMA.cpp
+  IMA.h
+  Module.cpp
+  Module.h
+  ModuleState.cpp
+  ModuleState.h
+  MSADPCM.cpp
+  MSADPCM.h
+  PCM.cpp
+  PCM.h
+  RebufferModule.cpp
+  RebufferModule.h
+  SimpleModule.cpp
+  SimpleModule.h
+)
